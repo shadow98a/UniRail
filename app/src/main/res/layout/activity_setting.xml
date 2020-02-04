@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.unirail.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/Rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/textmain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:text="설정"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <Switch
+        android:id="@+id/does_notify_importantly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 헤즈업 알림" />
+
+    <Switch
+        android:id="@+id/does_indicate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 방향 안내" />
+
+    <Switch
+        android:id="@+id/does_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 틀린 하차 방지" />
+
+</LinearLayout>

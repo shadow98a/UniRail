@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/black_theme"
+            android:layout_width="112dp"
+            android:layout_height="46dp"
+            android:text="저시력 모드"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/white_theme"
+            android:layout_width="111dp"
+            android:layout_height="44dp"
+            android:text="화이트테마"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/start_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

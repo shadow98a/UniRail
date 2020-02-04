@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Channel.Channel_main">
+
+    <TextView
+        android:id="@+id/textView_main_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제보하실 대상" />
+
+    <TextView
+        android:id="@+id/object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView_main_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제보하실 불편함" />
+
+    <EditText
+        android:id="@+id/problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:minLines="4" />
+
+    <Button
+        android:id="@+id/button_main_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="눌러서 제보하기" />
+
+</LinearLayout>
